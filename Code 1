@@ -288,15 +288,21 @@ jet_data = {
     "gameTitle": "VIVA GARFIELD"
 }
 
-quotes = ["'Man cannot live by bread alone; he must have peanut butter.' - James Garfield", "'The truth will set you free, but first it will make you miserable.' - James Garfield", "Let justice be done, though the heavens fall."]
+ $("#game_window")[0].style.backgroundSize = "cover"; quotes = ["'Man cannot live by bread alone; he must have peanut butter.' - James Garfield", "'The truth will set you free, but first it will make you miserable.' - James Garfield", "Let justice be done, though the heavens fall."] 
 customquote = quotes[Math.floor((Math.random() * quotes.length))]
+corrr = `
+<div style="background-color:#302E43; color:white; margin:0;">
+  <h2 style="margin:0;">CAMPAIGN TRAIL SHOWCASE</h2>
+  <font id='wittyquote' size='4' color='white'>
+    <em>${customquote}</em>
+  </font>
+</div>
+`;
 
-corrr = `\n<h2>CAMPAIGN TRAIL SHOWCASE</h2><font id='wittyquote' size='4' color='white'><em>` + customquote + `</em></font>`
-nct_stuff.themes[nct_stuff.selectedTheme].text_col = "white" 
 
 nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#5f072d";
 
-document.getElementsByClassName("game_header")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_title;
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#1e4167";
 
 $("#game_window")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_window;
 
@@ -306,7 +312,7 @@ document.getElementById("header").src = "https://i.imgur.com/5aJqKC6.png";
 
 document.body.background = "https://i.imgur.com/KtYULft.jpeg";
 
-document.head.innerHTML += "<style>#results_container {color:#000000;} .inner_window_w_desc {background-color:#26516a!important;}</style>";
+document.head.innerHTML += "<style>#results_container {color:#000000;} .inner_window_w_desc {background-color:#26516a!important;}";
 
 //#endcode
 
@@ -329,7 +335,10 @@ style.innerHTML = `
   p#credits {
     color: white !important;
   }
-  #theme_picker,
+ .game_header {
+  background-color: [#302E43];
+}
+#theme_picker,
   .footer h4 {
     display: none;
   }
