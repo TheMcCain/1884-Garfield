@@ -8230,7 +8230,7 @@ const buttonIDs = [
     "state_results_button",
     "overall_details_button",
     "recommended_reading_button",
-    "play_again_button"
+    "final_election_map_button"
 ];
 
 // Function to remove any of the buttons if they exist
