@@ -1,16 +1,21 @@
+
+document.getElementById("campaigntrailmusic").src = "https://audio.jukehost.co.uk/rfe4G8dLKLMIkEOA7YtxmjnjcEEzwXgp"
+document.getElementById("campaigntrailmusic").play()
+
+
 campaignTrail_temp.election_json = [
     {
         "model": "campaign_trail.election",
         "pk": 20,
         "fields": {
             "year": 2016,
-            "display_year": "james garfield the cat seeking nothing but lasagna and a pipe anyway this is the election year dropdown anyway im getting really bored so uh yeah im just dragging this year out even though i really shouldnt be lol",
-            "summary": "<p style=\"font-size: 24px;\">\nJames Garfield. The 521st President of the United States. The <b>Antichrist.</b><br><br>Seeking nothing but<marquee scrollamount='10'>LASAGNA!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</marquee>\n\n",
-            "image_url": "https://i.imgur.com/uEAsx4A.png",
+            "display_year": "",
+            "summary": "<p><div style='overflow-y:scroll;height:14em;font-size:1em;'><p style='margin-top:0em;'>James Abram Garfield (November 19, 1831 – September 19, 1881) was the 20th president of the United States, serving from March 1881 until his death in September that year after being shot two months earlier. A preacher, lawyer, and Civil War general, Garfield served nine terms in the United States House of Representatives and is the only sitting member of the House to be elected president. Before his candidacy for the presidency, he had been elected to the U.S. Senate by the Ohio General Assembly—a position he declined when he became president-elect. Garfield was born into poverty in a log cabin and grew up in northeastern Ohio. After graduating from Williams College in 1856, he studied law and became an attorney. He was a preacher in the Stone–Campbell Movement and president of the Western Reserve Eclectic Institute, affiliated with the Disciples.<br><br> Garfield was elected as a Republican member of the Ohio State Senate in 1859, serving until 1861. He opposed Confederate secession, was a major general in the Union Army during the American Civil War, and fought in the battles of Middle Creek, Shiloh, and Chickamauga. He was elected to Congress in 1862 to represent Ohio's 19th district. Throughout his congressional service, he firmly supported the gold standard and gained a reputation as a skilled orator. He initially agreed with Radical Republican views on Reconstruction but later favored a Moderate Republican–aligned approach to civil rights enforcement for freedmen.<br><br> Garfield's aptitude for mathematics extended to his own proof of the Pythagorean theorem, which he published in 1876. At the 1880 Republican National Convention, delegates chose Garfield, who had not sought the White House, as a compromise presidential nominee on the 36th ballot. In the 1880 presidential election, he conducted a low-key front porch campaign and narrowly defeated the Democratic nominee, Winfield Scott Hancock. Garfield's accomplishments as president included his assertion of presidential authority against senatorial courtesy in executive appointments, a purge of corruption in the Post Office, and his appointment of a Supreme Court justice. He advocated for agricultural technology, an educated electorate, and civil rights for African Americans. He also proposed substantial civil service reforms, which were passed by Congress in 1883 as the Pendleton Civil Service Reform Act and signed into law by his successor, Chester A. Arthur.<br><br> Garfield was a member of the intraparty Half-Breed faction that used the powers of the presidency to defy the powerful Stalwart Senator Roscoe Conkling from New York. He did this by appointing Blaine faction leader William H. Robertson to the lucrative post of Collector of the Port of New York. The ensuing political battle resulted in Robertson's confirmation and the resignations of Conkling and Thomas C. Platt from the Senate.On July 2, 1881, Charles J. Guiteau, a disappointed and delusional office seeker, shot Garfield at the Baltimore and Potomac Railroad Station in Washington. The wound was not immediately fatal, but an infection caused by his doctors' unsanitary methods in treating the wound killed Garfield on September 19. Due to his brief tenure in office, historians tend to rank Garfield as a below-average president or omit him entirely from rankings, though he has earned praise for anti-corruption and pro-civil rights stances.</div></p>",
+            "image_url": "https://i.imgur.com/jLkxFTy.png",
             "winning_electoral_vote_number": 270,
             "advisor_url": "123",
             "recommended_reading": "<ul>\n<li><a href=https://www.chicagotribune.com/opinion/editorials/ct-edit-chicago-tribune-biden-endorsement-20200925-lnyxsb5qvrftnjjmj3rnzj33jy-story.html>Our Case For Joe Biden</a></li>\n<li><a href=https://nationalinterest.org/feature/case-trump-166808>The Case For Trump</a></li>\n<li><a href=https://www.npr.org/2020/11/18/935730100/how-biden-won-ramping-up-the-base-and-expanding-margins-in-the-suburbs>How Biden Won: Ramping Up The Base And Expanding Margins In The Suburbs</a></li>\n<li><a href=https://www.prospectmagazine.co.uk/politics/donald-trump-joe-biden-us-election-almost-win-votes-concede>Why Did Trump Almost Win?</a></li>\n<li><a href=https://www.hoover.org/research/no-evidence-voter-fraud-guide-statistical-claims-about-2020-election>No Evidence For Voter Fraud: A Guide To Statistical Claims About The 2020 Election</a></li>\n</ul>",
-            "has_visits": 1,
+            "has_visits": 0,
             "no_electoral_majority_image": "../static/images/2012-no-majority.jpg"
         }
     }
@@ -21,11 +26,11 @@ campaignTrail_temp.temp_election_list = [
         "id": 20,
         "year": 2016,
         "is_premium": 0,
-        "display_year": "james garfield the cat seeking nothing but lasagna and a pipe anyway this is the election year dropdown anyway im getting really bored so uh yeah im just dragging this year out even though i really shouldnt be lol"
+        "display_year": "James Abram Garfield"
     }
 ]
 
-campaignTrail_temp.credits = "a group of morons, seeking nothing but world domination"
+campaignTrail_temp.credits = "a group of great people, seeking nothing but world peace"
 
 campaignTrail_temp.global_parameter_json = [
     {
@@ -55,7 +60,7 @@ campaignTrail_temp.global_parameter_json = [
 campaignTrail_temp.candidate_json = [
     {
         "model": "campaign_trail.candidate",
-        "pk": 1001,
+        "pk": 20,
         "fields": {
             "first_name": "James Garfield",
             "last_name": "The Clown",
@@ -67,7 +72,7 @@ campaignTrail_temp.candidate_json = [
             "color_hex": "#0000FF",
             "secondary_color_hex": null,
             "is_active": 1,
-            "image_url": "https://i.imgur.com/XIoiTAf.png",
+            "image_url": "https://i.imgur.com/qhvrza9.png",
             "electoral_victory_message": "This guy wins!",
             "electoral_loss_message": "This guy loses!",
             "no_electoral_majority_message": "We all win?",
@@ -106,7 +111,7 @@ campaignTrail_temp.running_mate_json = [
         "model": "campaign_trail.running_mate",
         "pk": 109261,
         "fields": {
-            "candidate": 1001,
+            "candidate": 20,
             "running_mate": 1002
         }
     }
@@ -116,7 +121,7 @@ campaignTrail_temp.opponents_default_json = [
     {
         "election": 20,
         "candidates": [
-            1001
+            20
         ]
     }
 ]
@@ -125,7 +130,7 @@ campaignTrail_temp.opponents_weighted_json = [
     {
         "election": 20,
         "candidates": [
-            1001
+            20
         ]
     }
 ]
@@ -145,9 +150,14 @@ jet_data = {
 //#startcode
 
 
-corrr = '\n              <h2>JAMES GARFIELD INCUMBENT SI M OR SOMETHING IDK!!!11!!</h2>\n            ';
+corrr = '\n              <h2>CAMPAIGN TRAIL SHOWCASE</h2>\n            ';
 
 
+
+  $("#game_start").click((event) => {
+    event.preventDefault();
+    $("#election_id_button").click((event) => {
+        event.preventDefault();
 nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#ff0033";
 
 nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#2b00ff";
@@ -162,6 +172,24 @@ document.getElementById("header").src = "https://i.imgur.com/sNdMe4j.png";
 
 document.body.background = "https://i.imgur.com/9GnAKD9.jpeg";
 
-document.head.innerHTML += "<style>#results_container {color:#000000;} .inner_window_w_desc {background-color:#ff0000!important;}</style>";
+        e.election_json[0].fields.summary = "<p><div style='overflow-y:scroll;height:14em;font-size:1em;'><p style=\"font-size: 24px;\">\nJames Garfield. The 521st President of the United States. The <b>Antichrist.</b> Without a doubt the <b>worst</b> president to ever roam the face of the Earth.<br><br>Seeking nothing but<marquee scrollamount='10'>LASAGNA!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</marquee>\n\n"
 
-//#endcode
+campaignTrail_temp.credits = "a group of horrible people, seeking nothing but world domination"
+
+        e.election_json[0].fields.image_url = "https://i.imgur.com/uEAsx4A.png"
+
+    if (document.getElementById("campaigntrailmusic"))
+        document.getElementById("campaigntrailmusic").remove()
+
+
+        function changeFontColour() {
+            if (document.getElementById('final_results_description') != null) {
+                document.getElementById('final_results_description').innerHTML = `<font color="white">` + document.getElementById("final_results_description").innerHTML
+            }
+        }
+        setInterval(changeFontColour, 200)
+  
+    })
+  })
+
+
