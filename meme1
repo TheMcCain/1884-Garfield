@@ -1,0 +1,167 @@
+campaignTrail_temp.election_json = [
+    {
+        "model": "campaign_trail.election",
+        "pk": 20,
+        "fields": {
+            "year": 2016,
+            "display_year": "james garfield the cat seeking nothing but lasagna and a pipe anyway this is the election year dropdown anyway im getting really bored so uh yeah im just dragging this year out even though i really shouldnt be lol",
+            "summary": "<p style=\"font-size: 24px;\">\nJames Garfield. The 521st President of the United States. The <b>Antichrist.</b><br><br>Seeking nothing but<marquee scrollamount='10'>LASAGNA!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</marquee>\n\n",
+            "image_url": "https://i.imgur.com/uEAsx4A.png",
+            "winning_electoral_vote_number": 270,
+            "advisor_url": "123",
+            "recommended_reading": "<ul>\n<li><a href=https://www.chicagotribune.com/opinion/editorials/ct-edit-chicago-tribune-biden-endorsement-20200925-lnyxsb5qvrftnjjmj3rnzj33jy-story.html>Our Case For Joe Biden</a></li>\n<li><a href=https://nationalinterest.org/feature/case-trump-166808>The Case For Trump</a></li>\n<li><a href=https://www.npr.org/2020/11/18/935730100/how-biden-won-ramping-up-the-base-and-expanding-margins-in-the-suburbs>How Biden Won: Ramping Up The Base And Expanding Margins In The Suburbs</a></li>\n<li><a href=https://www.prospectmagazine.co.uk/politics/donald-trump-joe-biden-us-election-almost-win-votes-concede>Why Did Trump Almost Win?</a></li>\n<li><a href=https://www.hoover.org/research/no-evidence-voter-fraud-guide-statistical-claims-about-2020-election>No Evidence For Voter Fraud: A Guide To Statistical Claims About The 2020 Election</a></li>\n</ul>",
+            "has_visits": 1,
+            "no_electoral_majority_image": "../static/images/2012-no-majority.jpg"
+        }
+    }
+]
+
+campaignTrail_temp.temp_election_list = [
+    {
+        "id": 20,
+        "year": 2016,
+        "is_premium": 0,
+        "display_year": "james garfield the cat seeking nothing but lasagna and a pipe anyway this is the election year dropdown anyway im getting really bored so uh yeah im just dragging this year out even though i really shouldnt be lol"
+    }
+]
+
+campaignTrail_temp.credits = "a group of morons, seeking nothing but world domination"
+
+campaignTrail_temp.global_parameter_json = [
+    {
+        "model": "campaign_trail.global_parameter",
+        "pk": 1,
+        "fields": {
+            "vote_variable": 1.125,
+            "max_swing": 0.12,
+            "start_point": 0.94,
+            "candidate_issue_weight": 10,
+            "running_mate_issue_weight": 3,
+            "issue_stance_1_max": -0.71,
+            "issue_stance_2_max": -0.3,
+            "issue_stance_3_max": -0.125,
+            "issue_stance_4_max": 0.125,
+            "issue_stance_5_max": 0.3,
+            "issue_stance_6_max": 0.71,
+            "global_variance": 0.01,
+            "state_variance": 0.005,
+            "question_count": 25,
+            "default_map_color_hex": "#C9C9C9",
+            "no_state_map_color_hex": "#999999"
+        }
+    }
+]
+
+campaignTrail_temp.candidate_json = [
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 1001,
+        "fields": {
+            "first_name": "James Garfield",
+            "last_name": "The Clown",
+            "election": 20,
+            "party": "Republican",
+            "state": "Hell",
+            "priority": 1,
+            "description": "<p style=\"font-size: 24px;\">James garfield is the 521st president of the united states and a complete clown.<br>Yet your stuck with him anyway. Anyway i really hate james garfield so yeah go get your lasagna and get out of this mod  </p>\n",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": null,
+            "is_active": 1,
+            "image_url": "https://i.imgur.com/XIoiTAf.png",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": null,
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 1002,
+        "fields": {
+            "first_name": "Jon",
+            "last_name": "The Devil",
+            "election": 20,
+            "party": "Independent",
+            "state": "Hell",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://i.imgur.com/fwDCX48.png",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": "<p style=\"font-size: 24px;\">You struck a deal with the devil, that's why your still here today. You better please him or your days on earth are numbered.<br><br>Was it worth it?jopaef0-j912d3ji0</p>\n",
+            "candidate_score": 1,
+            "running_mate": true
+        }
+    }
+]
+
+campaignTrail_temp.running_mate_json = [
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 109261,
+        "fields": {
+            "candidate": 1001,
+            "running_mate": 1002
+        }
+    }
+]
+
+campaignTrail_temp.opponents_default_json = [
+    {
+        "election": 20,
+        "candidates": [
+            1001
+        ]
+    }
+]
+
+campaignTrail_temp.opponents_weighted_json = [
+    {
+        "election": 20,
+        "candidates": [
+            1001
+        ]
+    }
+]
+
+jet_data = {
+    "headerColor": "#ff0033",
+    "windowColor": "#2b00ff",
+    "containerColor": "#0008ff",
+    "innerWindowColor": "#ff0000",
+    "bannerImageUrl": "https://i.imgur.com/sNdMe4j.png",
+    "backgroundImageUrl": "https://i.imgur.com/9GnAKD9.jpeg",
+    "endingTextColor": "#000000",
+    "customQuote": "",
+    "gameTitle": "JAMES GARFIELD INCUMBENT SI M OR SOMETHING IDK!!!11!!"
+}
+
+//#startcode
+
+
+corrr = '\n              <h2>JAMES GARFIELD INCUMBENT SI M OR SOMETHING IDK!!!11!!</h2>\n            ';
+
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#ff0033";
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#2b00ff";
+
+document.getElementsByClassName("game_header")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_title;
+
+$("#game_window")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_window;
+
+$(".container")[0].style.backgroundColor = "#0008ff";
+
+document.getElementById("header").src = "https://i.imgur.com/sNdMe4j.png";
+
+document.body.background = "https://i.imgur.com/9GnAKD9.jpeg";
+
+document.head.innerHTML += "<style>#results_container {color:#000000;} .inner_window_w_desc {background-color:#ff0000!important;}</style>";
+
+//#endcode
