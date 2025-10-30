@@ -8266,9 +8266,9 @@ cyoAdventure = function (a) {
 
         
   if (ans == 1471) {
-        campaignTrail_temp.candidate_json[0]["fields"].first_name = "Lasagna";
-        campaignTrail_temp.candidate_json[0]["fields"].last_name = "Empire";
-        campaignTrail_temp.candidate_json[0]["fields"].image_url = "https://www.allrecipes.com/thmb/nb2eEifCwlw1yc5gnXMwBy4BkXQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/23600-worlds-best-lasagna-DDMFS-2x1-1193-40ded59b2a224312b66bdafbb885adc0.jpg";
+        campaignTrail_temp.candidate_json[0]["fields"].first_name = "The";
+        campaignTrail_temp.candidate_json[0]["fields"].last_name = "Deep State";
+        campaignTrail_temp.candidate_json[0]["fields"].image_url = "https://i.imgur.com/JoIh5B2.png";
                 campaignTrail_temp.question_number = 24;
                 nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#000000";
 
@@ -8279,6 +8279,8 @@ document.getElementsByClassName("game_header")[0].style.backgroundColor = nct_st
 $("#game_window")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_window;
 
 $(".container")[0].style.backgroundColor = "#000000";
+
+document.body.background = "https://whitescreen.online/image/black-background.png"
 
 document.getElementById("header").src = "https://whitescreen.online/image/black-background.png";
 
