@@ -6,31 +6,106 @@ document.getElementById("campaigntrailmusic").play()
 campaignTrail_temp.election_json = [
     {
         "model": "campaign_trail.election",
-        "pk": 20,
+        "pk": 5,
         "fields": {
-            "year": 2016,
-            "display_year": "",
+            "year": 1896,
             "summary": "<p><div style='overflow-y:scroll;height:14em;font-size:1em;'><p style='margin-top:0em;'>James Abram Garfield (November 19, 1831 – September 19, 1881) was the 20th president of the United States, serving from March 1881 until his death in September that year after being shot two months earlier. A preacher, lawyer, and Civil War general, Garfield served nine terms in the United States House of Representatives and is the only sitting member of the House to be elected president. Before his candidacy for the presidency, he had been elected to the U.S. Senate by the Ohio General Assembly—a position he declined when he became president-elect. Garfield was born into poverty in a log cabin and grew up in northeastern Ohio. After graduating from Williams College in 1856, he studied law and became an attorney. He was a preacher in the Stone–Campbell Movement and president of the Western Reserve Eclectic Institute, affiliated with the Disciples.<br><br> Garfield was elected as a Republican member of the Ohio State Senate in 1859, serving until 1861. He opposed Confederate secession, was a major general in the Union Army during the American Civil War, and fought in the battles of Middle Creek, Shiloh, and Chickamauga. He was elected to Congress in 1862 to represent Ohio's 19th district. Throughout his congressional service, he firmly supported the gold standard and gained a reputation as a skilled orator. He initially agreed with Radical Republican views on Reconstruction but later favored a Moderate Republican–aligned approach to civil rights enforcement for freedmen.<br><br> Garfield's aptitude for mathematics extended to his own proof of the Pythagorean theorem, which he published in 1876. At the 1880 Republican National Convention, delegates chose Garfield, who had not sought the White House, as a compromise presidential nominee on the 36th ballot. In the 1880 presidential election, he conducted a low-key front porch campaign and narrowly defeated the Democratic nominee, Winfield Scott Hancock. Garfield's accomplishments as president included his assertion of presidential authority against senatorial courtesy in executive appointments, a purge of corruption in the Post Office, and his appointment of a Supreme Court justice. He advocated for agricultural technology, an educated electorate, and civil rights for African Americans. He also proposed substantial civil service reforms, which were passed by Congress in 1883 as the Pendleton Civil Service Reform Act and signed into law by his successor, Chester A. Arthur.<br><br> Garfield was a member of the intraparty Half-Breed faction that used the powers of the presidency to defy the powerful Stalwart Senator Roscoe Conkling from New York. He did this by appointing Blaine faction leader William H. Robertson to the lucrative post of Collector of the Port of New York. The ensuing political battle resulted in Robertson's confirmation and the resignations of Conkling and Thomas C. Platt from the Senate.On July 2, 1881, Charles J. Guiteau, a disappointed and delusional office seeker, shot Garfield at the Baltimore and Potomac Railroad Station in Washington. The wound was not immediately fatal, but an infection caused by his doctors' unsanitary methods in treating the wound killed Garfield on September 19. Due to his brief tenure in office, historians tend to rank Garfield as a below-average president or omit him entirely from rankings, though he has earned praise for anti-corruption and pro-civil rights stances.</div></p>",
             "image_url": "https://i.imgur.com/jLkxFTy.png",
-            "winning_electoral_vote_number": 270,
-            "advisor_url": "123",
-            "recommended_reading": "<ul>\n<li><a href=https://www.chicagotribune.com/opinion/editorials/ct-edit-chicago-tribune-biden-endorsement-20200925-lnyxsb5qvrftnjjmj3rnzj33jy-story.html>Our Case For Joe Biden</a></li>\n<li><a href=https://nationalinterest.org/feature/case-trump-166808>The Case For Trump</a></li>\n<li><a href=https://www.npr.org/2020/11/18/935730100/how-biden-won-ramping-up-the-base-and-expanding-margins-in-the-suburbs>How Biden Won: Ramping Up The Base And Expanding Margins In The Suburbs</a></li>\n<li><a href=https://www.prospectmagazine.co.uk/politics/donald-trump-joe-biden-us-election-almost-win-votes-concede>Why Did Trump Almost Win?</a></li>\n<li><a href=https://www.hoover.org/research/no-evidence-voter-fraud-guide-statistical-claims-about-2020-election>No Evidence For Voter Fraud: A Guide To Statistical Claims About The 2020 Election</a></li>\n</ul>",
+            "winning_electoral_vote_number": 224,
+            "advisor_url": "https://www.jetsimon.com/public/static/images/hanna-jones.jpg",
+            "recommended_reading": "<h4 style=\"margin-top: 0.5em;\">General Resources</h4>  <a href=\"http://www.uselectionatlas.org/RESULTS/national.php?f=0&year=1896\" target=\"_blank\">Final 1896 Results</a> <br> <a href=\"http://projects.vassar.edu/1896/1896home.html\" target=\"_blank\">1896 Election -- Overview and Political Cartoons</a> <br>  <h4>By the Candidates</h4>  William Jennings Bryan - <a href=\"http://books.google.com/books/about/The_first_battle.html?id=9k4TAAAAYAAJ\" target=\"_blank\">The First Battle: A story of the campaign of 1896</a> <br>  William Jennings Bryan - <a href=\"http://www.youtube.com/watch?v=Ydrq2-j92cU\" target=\"_blank\">\"Cross of Gold\" speech</a> <br>  William McKinley - <a href=\"http://www.youtube.com/watch?v=m6ZUneyU7Vo\" target=\"_blank\">\"Front Porch\" speech</a> <br>  <h4>The Panic of 1893</h4> <a href=\"http://www.youtube.com/watch?v=Qu_b6N-G1Os\" target=\"_blank\">The Panic of 1893 with Lawrence Reed</a> (video) <br> <a href=\"http://eh.net/encyclopedia/article/Whitten.panic.1893\" target=\"_blank\">The Depression of 1893</a>  <h4>Misceallany</h4> <a href=\"http://www.oyez.org/cases/1851-1900/1895/1895_210/\" target=\"_blank\">Plessy v. Ferguson</a> <br> <a href=\"http://www.stfrancis.edu/content/ba/ghkickul/stuwebs/btopics/works/PullmanStrike.htm\" target=\"_blank\">Pullman Strike of 1894</a> <br> <a href=\"http://en.wikipedia.org/wiki/Wilson%E2%80%93Gorman_Tariff_Act\" target=\"_blank\">Wilson-Gorman Tariff</a> <br> <a href=\"http://prosperityuk.com/2001/01/a-wonderful-wizard-of-oz-a-monetary-reform-parable/\" target=\"_blank\">The Wonderful Wizard of Oz - A Monetary Reform Parable</a>",
             "has_visits": 0,
-            "no_electoral_majority_image": "../static/images/2012-no-majority.jpg"
+            "no_electoral_majority_image": "https://www.jetsimon.com/public/static/images/1896-no-majority.jpg",
+            "creator": "Dan Bryan",
+            "display_year": "James Abram Garfield"
         }
     }
 ]
 
-campaignTrail_temp.temp_election_list = [
+campaignTrail_temp.candidate_json = [
     {
-        "id": 20,
-        "year": 2016,
-        "is_premium": 0,
-        "display_year": "James Abram Garfield"
+        "model": "campaign_trail.candidate",
+        "pk": 20,
+        "fields": {
+            "first_name": "James Garfield",
+            "last_name": "The Clown",
+            "election": 5,
+            "party": "Republican",
+            "state": "Ohio",
+            "priority": 1,
+            "description": "<p style=\"font-size: 24px;\">James garfield is the 20th president of the united states and a complete clown.<br>Yet your stuck with him anyway. Anyway i really hate james garfield so yeah go get your lasagna and get out of this mod</p>",
+            "color_hex": "#FF0000",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 1,
+            "image_url": "https://i.imgur.com/qhvrza9.png",
+            "electoral_victory_message": "<h3>ALL HAIL THE LASAGNA EMPIRE</p><p>James Garfield has been executed. The world is now a better place.",
+            "electoral_loss_message": "<h3>Sorry! You have lost the 1896 election.</h3><p>YOU CHEATED!111!!1!!</p>",
+            "no_electoral_majority_message": "<h3>Wow! You have won a true nail-biter.</h3><p>communist</p>",
+            "description_as_running_mate": null,
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 21,
+        "fields": {
+            "first_name": "William Jennings",
+            "last_name": "Hancock",
+            "election": 5,
+            "party": "Democrat",
+            "state": "Nebraska",
+            "priority": 2,
+            "description": "<p>William Jennings Bryan electrified the convention in Chicago with his famous \"Cross of Gold\" speech.</p><p>Running as a liberal and an evangelical, his primary issue is the inflation of the currency through the free coinage of silver. This gives him fanatical support amongst the farmers of the South and the West. Lacking the funds to run a large campaign, Bryan will bring his speaking talents to bear by touring the United States.</p>",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 0,
+            "image_url": "https://www.jetsimon.com/public/static/images/william-jennings-bryan-1896.jpg",
+            "electoral_victory_message": "<h3>Congratulations! You have won the 1896 election.</h3><p>\"The Great Commoner\" will soon be President of the United States! Nobody with your political views has ever sniffed the Presidency, let alone won it, and with that in mind your supporters are rioting frenziedly in the streets. The sweetest speech of all will be your victory speech tomorrow in Lincoln, Nebraska. Prepare to enact your reform agenda and most importantly the free coinage of silver.</p>",
+            "electoral_loss_message": "<h3>Sorry! You have lost the 1896 election.</h3><p>With all of the maneuvering, chicanery, and propoganda that the Republicans threw at you, it's amazing that you even had a chance.</p><p>Regardless of the outcome this time, you have built a legion of devoted followers who will support anything you do. If you play your cards right, you just might get another shot against McKinley in four years...</p>",
+            "no_electoral_majority_message": "<h3>Sorry! You have lost in a squeaker.</h3><p>No candidate achieved a majority of the electoral votes, marking the first time this has happened since 1824. Unfortunately  for you, the majority of U.S. states have Republican controlled congressional delegations, and they will cast their votes for William McKinley.</p><p>Given the incredibly close nature of the election, you can certainly set your sights on a political comeback in 1900, if that is what you desire.</p>",
+            "description_as_running_mate": null,
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 45,
+        "fields": {
+            "first_name": "Jon",
+            "last_name": "The Devil",
+            "election": 5,
+            "party": "Independent",
+            "state": "New Jersey",
+            "priority": 20,
+            "description": "n/a",
+            "color_hex": "#FF0000",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 0,
+            "image_url": "https://i.imgur.com/fwDCX48.png",
+            "electoral_victory_message": "n/a",
+            "electoral_loss_message": "n/a",
+            "no_electoral_majority_message": "n/a",
+            "description_as_running_mate": "<p style=\"font-size: 24px;\">You struck a deal with the devil, that's why your still here today. You better please him or your days on earth are numbered.\n\nWas it worth it?jopaef0-j912d3ji0</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
     }
 ]
 
-campaignTrail_temp.credits = "a group of great people, seeking nothing but world peace"
+campaignTrail_temp.running_mate_json = [
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 178373,
+        "fields": {
+            "candidate": 20,
+            "running_mate": 45
+        }
+    }
+]
+
+campaignTrail_temp.credits = "a group of great people, seeking nothing but peace"
 
 campaignTrail_temp.global_parameter_json = [
     {
@@ -57,102 +132,45 @@ campaignTrail_temp.global_parameter_json = [
     }
 ]
 
-campaignTrail_temp.candidate_json = [
-    {
-        "model": "campaign_trail.candidate",
-        "pk": 20,
-        "fields": {
-            "first_name": "James Garfield",
-            "last_name": "The Clown",
-            "election": 20,
-            "party": "Republican",
-            "state": "Hell",
-            "priority": 1,
-            "description": "<p style=\"font-size: 24px;\">James garfield is the 521st president of the united states and a complete clown.<br>Yet your stuck with him anyway. Anyway i really hate james garfield so yeah go get your lasagna and get out of this mod  </p>\n",
-            "color_hex": "#0000FF",
-            "secondary_color_hex": null,
-            "is_active": 1,
-            "image_url": "https://i.imgur.com/qhvrza9.png",
-            "electoral_victory_message": "This guy wins!",
-            "electoral_loss_message": "This guy loses!",
-            "no_electoral_majority_message": "We all win?",
-            "description_as_running_mate": null,
-            "candidate_score": 1,
-            "running_mate": false
-        }
-    },
-    {
-        "model": "campaign_trail.candidate",
-        "pk": 1002,
-        "fields": {
-            "first_name": "Jon",
-            "last_name": "The Devil",
-            "election": 20,
-            "party": "Independent",
-            "state": "Hell",
-            "priority": 1,
-            "description": "<p>Put description here</p>",
-            "color_hex": "#0000FF",
-            "secondary_color_hex": null,
-            "is_active": 0,
-            "image_url": "https://i.imgur.com/fwDCX48.png",
-            "electoral_victory_message": "This guy wins!",
-            "electoral_loss_message": "This guy loses!",
-            "no_electoral_majority_message": "We all win?",
-            "description_as_running_mate": "<p style=\"font-size: 24px;\">You struck a deal with the devil, that's why your still here today. You better please him or your days on earth are numbered.<br><br>Was it worth it?jopaef0-j912d3ji0</p>\n",
-            "candidate_score": 1,
-            "running_mate": true
-        }
-    }
-]
-
-campaignTrail_temp.running_mate_json = [
-    {
-        "model": "campaign_trail.running_mate",
-        "pk": 109261,
-        "fields": {
-            "candidate": 20,
-            "running_mate": 1002
-        }
-    }
-]
-
 campaignTrail_temp.opponents_default_json = [
     {
-        "election": 20,
+        "election": 5,
         "candidates": [
-            20
+            20,
+            21
         ]
     }
 ]
 
 campaignTrail_temp.opponents_weighted_json = [
     {
-        "election": 20,
+        "election": 5,
         "candidates": [
-            20
+            20,
+            21
         ]
     }
 ]
 
+campaignTrail_temp.temp_election_list = [
+    {
+        "id": 5,
+        "year": 1896,
+        "is_premium": 0,
+        "display_year": "James Abram Garfield"
+    }
+]
+
 jet_data = {
-    "headerColor": "#ff0033",
-    "windowColor": "#2b00ff",
-    "containerColor": "#0008ff",
-    "innerWindowColor": "#ff0000",
-    "bannerImageUrl": "https://i.imgur.com/sNdMe4j.png",
-    "backgroundImageUrl": "https://i.imgur.com/9GnAKD9.jpeg",
+    "headerColor": "#700016",
+    "windowColor": "#BFE6FF",
+    "containerColor": "#FFFFFF",
+    "innerWindowColor": "#E8FBFF",
+    "bannerImageUrl": "https://jetsimon.com/public/placeholderbanner.png",
+    "backgroundImageUrl": "https://coolbackgrounds.io/images/backgrounds/white/pure-white-background-85a2a7fd.jpg",
     "endingTextColor": "#000000",
-    "customQuote": "",
-    "gameTitle": "JAMES GARFIELD INCUMBENT SI M OR SOMETHING IDK!!!11!!"
+    "customQuote": ""
 }
-
-//#startcode
-
-
-corrr = '\n              <h2>CAMPAIGN TRAIL SHOWCASE</h2>\n            ';
-
-
 
   $("#game_start").click((event) => {
     event.preventDefault();
@@ -180,6 +198,8 @@ campaignTrail_temp.credits = "a group of horrible people, seeking nothing but wo
 
     if (document.getElementById("campaigntrailmusic"))
         document.getElementById("campaigntrailmusic").remove()
+
+document.head.innerHTML += "<style>#results_container {color:#ffff;} .inner_window_w_desc {background-color:#ffff!important;}</style>";
 
 
         function changeFontColour() {
