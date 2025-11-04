@@ -31,10 +31,10 @@ campaignTrail_temp.temp_election_list = [
 
 campaignTrail_temp.credits = "<button onclick='credits()'>Richard Bruce Cheney</button>";
   credits = function() {
-    credits = ["FIXED VERSION BY:", "", "TheMcCain: Coding", "SamTheGreatestMan, Phoebe: Writing/Ideas", "", "ORIGINAL CREDITS:", "", "Coder: Galen/RTKH", "GFX Design: Galen/RTKH", "Writing Team:  Krypto, Charlie, Octosteel, Everynametaken, Mrtidepod, Big D", "Special Thanks: NaiminaOS, Corsaire, Mr. Rockefeller, SimonJet, & LikeHumansDo"]
+    c = ["FIXED VERSION BY:", "", "TheMcCain: Coding/Debugging", "SamTheGreatestMan: Writing/Ideas", "Phoebe: Writing/Ideas", "", "ORIGINAL CREDITS:", "", "Coder: Galen/RTKH", "GFX Design: Galen/RTKH", "Writing Team:  Krypto, Charlie, Octosteel, Everynametaken, Mrtidepod, Big D", "Special Thanks: NaiminaOS, Corsaire, Mr. Rockefeller, SimonJet, & LikeHumansDo", "", "Please remember we are not affiliated with Galen!"]
     text = ""
-    for (i in credits) {
-        text += credits[i] + "\n"
+    for (i in c) {
+        text += c[i] + "\n"
     }
     alert(text)
   }
