@@ -333,9 +333,9 @@ campaignTrail_temp.cyoa = true;
         var invadedSyria = 0;
         var vpIndex = 0;
         var hostile = 0;
-        var iAmGayGayGayILikeLongBigCocks = 0;
+        var VariableThatIRenamedFromOGVice = 0;
         var cheneyCare = 0;
-        var warCount = 2; //iroq and afkaniston
+        var warCount = 2; 
         var pardonedLibby = 0;
         var invadedIran = 0;
         var invadedChina = 0;
@@ -679,7 +679,7 @@ cyoAdventure = function (a) {
         Victories += 1;
     }
     if(ans == 12761){
-        iAmGayGayGayILikeLongBigCocks += 1;
+        VariableThatIRenamedFromOGVice += 1;
         Victories += 1;
     }
     if(e.noCounter == 8 && invadedSyria == 1){
@@ -812,7 +812,7 @@ cyoAdventure = function (a) {
         campaignTrail_temp.questions_json[20] = tunnel(129831);
     }
     //THE OPPONENTINATOR
-    if(e.noCounter == 15 && iAmGayGayGayILikeLongBigCocks == 1 && payYourBills == 1 && e.player_answers.includes(12664) && warCount < 5){
+    if(e.noCounter == 15 && VariableThatIRenamedFromOGVice == 1 && payYourBills == 1 && e.player_answers.includes(12664) && warCount < 5){
         louisianaPurchase();
         gravelLibertarian();
         campaignTrail_temp.questions_json[16] = tunnel(13000);
@@ -944,10 +944,10 @@ cyoAdventure = function (a) {
     if(e.noCounter == 17 && warCount <= 4 && opponentIndex == 9 && !e.player_answers.includes(130358)){
         campaignTrail_temp.questions_json[17] = tunnel(130388);
     }
-    if(e.noCounter == 18 && iAmGayGayGayILikeLongBigCocks == 1 && opponentIndex == 9){
+    if(e.noCounter == 18 && VariableThatIRenamedFromOGVice == 1 && opponentIndex == 9){
         campaignTrail_temp.questions_json[18] = tunnel(130464);
     }
-    if(e.noCounter == 18 && iAmGayGayGayILikeLongBigCocks == 0 && opponentIndex == 9){
+    if(e.noCounter == 18 && VariableThatIRenamedFromOGVice == 0 && opponentIndex == 9){
         campaignTrail_temp.questions_json[18] = tunnel(130449);
     }
     if(e.noCounter == 19 && opponentIndex == 9){
