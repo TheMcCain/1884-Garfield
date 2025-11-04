@@ -1012,7 +1012,7 @@ addDynamicCSS();
   const gameWindow_player = document.getElementById("game_window");
   //use this function directly or put it in an event listener to start the music on the press of a certain button
   setupMusicPlayer();
-  𝖇𝖗𝖚𝖈𝖊Accessibility = 0;
+  viceAccessibility = 0;
 dyslexiaToggle = function() {
     if (document.getElementById("difficulty_level") && !document.getElementById("dyslexia_button")){ //this was originally meant to help players with dyslexia, but unfortunately TCT doesn't like changing fonts mid-game
         let bhOptions = [["None", 0], ["Disable Highlighter", 1]];
@@ -1037,7 +1037,7 @@ dyslexiaToggle = function() {
         ff.appendChild(dd);
         document.getElementById("difficulty_level").appendChild(ff);
         dd.addEventListener("change", function () {
-          𝖇𝖗𝖚𝖈𝖊Accessibility = this.value;
+          viceAccessibility = this.value;
         })
     } else {
         return;
