@@ -1043,8 +1043,7 @@ dyslexiaToggle = function() {
         return;
     }
 }
-document.styleSheets[0].insertRule("#difficulty_level form {display: inline-block !important; padding: 0 1em !important;", 0);
-document.styleSheets[0].insertRule("#difficulty_level form p {margin: 0 !important;", 0); //ty sundance
+
 const gamewindowthingy = document.getElementById("game_window");
 const initConfigVice = { attributes: true, childList: true, subtree: true };
 const changeObserverVice = new MutationObserver(dyslexiaToggle);
