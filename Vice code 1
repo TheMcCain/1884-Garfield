@@ -4,8 +4,8 @@ campaignTrail_temp.election_json = [
         "pk": 20,
         "fields": {
             "year": 2008,
-            "display_year": "2008Vice",
-            "summary": "As much as pacemaker-laden Richard Bruce Cheney would prefer you not say so, his time is ticking. His legacy? Tarnished by an incompetent Texas buffoon who did perhaps 20% of this Administration's policies and efforts. He understands that, equipped with the lowest approval rating of a Veep in perhaps all of American history, he will be relegated to either every political joke for a century, or he will be feared as a great tyrant in his own right, much above the warmth and gentleness of his predecessor. After a frankly ridiculous and anemic primary, his position as POTUS is only impeded by the will of the Common Man himself.<br>Thus, the archetypal frontier man finds himself in the last duel of his life, faced with insurmountable odds.<br><br>This is 𝖛𝖎𝖈𝖊.",
+            "display_year": "2008𝖇𝖗𝖚𝖈𝖊",
+            "summary": "As much as pacemaker-laden Richard Bruce Cheney would prefer you not say so, his time is ticking. His legacy? Tarnished by an incompetent Texas buffoon who did perhaps 20% of this Administration's policies and efforts. He understands that, equipped with the lowest approval rating of a Veep in perhaps all of American history, he will be relegated to either every political joke for a century, or he will be feared as a great tyrant in his own right, much above the warmth and gentleness of his predecessor. After a frankly ridiculous and anemic primary, his position as POTUS is only impeded by the will of the Common Man himself.<br>Thus, the archetypal frontier man finds himself in the last duel of his life, faced with insurmountable odds.<br><br>This is 𝖇𝖗𝖚𝖈𝖊.",
             "image_url": "https://i.ibb.co/jks5x9q/image-url.png",
             "winning_electoral_vote_number": 270,
             "advisor_url": "https://i.ibb.co/2twRSNb/advisort.png",
@@ -15,7 +15,7 @@ campaignTrail_temp.election_json = [
         }
     }
 ]
-document.getElementById("inner_window_1").children[0].innerHTML = `<h3>Welcome to 𝖛𝖎𝖈𝖊.</h3>`;
+document.getElementById("inner_window_1").children[0].innerHTML = `<h3>Welcome to 𝖇𝖗𝖚𝖈𝖊.</h3>`;
 document.getElementById("game_start").innerHTML = `<strong>Click here to begin.</strong>`;
 document.getElementById("inner_window_1").children[1].innerHTML = `<p>A hypnagogic and semi-surreal account of the events following Dick Cheney's ascendancy to power.</p><br><br><br><br><br><br><br><br><br>`;
 
@@ -25,14 +25,14 @@ campaignTrail_temp.temp_election_list = [
         "id": 20,
         "year": 2008,
         "is_premium": 0,
-        "display_year": "2008 - 𝖛𝖎𝖈𝖊."
+        "display_year": "2008 - 𝖇𝖗𝖚𝖈𝖊."
     }
 ]
 
 campaignTrail_temp.credits = "<button onclick='credits()'>Richard Bruce Cheney</button>";
   credits = function() {
-    c = ["FIXED VERSION BY:", "", "TheMcCain: Coding/Debugging", "SamTheGreatestMan: Writing/Ideas", "Phoebe: Writing/Ideas", "", "ORIGINAL CREDITS:", "", "Coder: Galen/RTKH", "GFX Design: Galen/RTKH", "Writing Team:  Krypto, Charlie, Octosteel, Everynametaken, Mrtidepod, Big D", "Special Thanks: NaiminaOS, Corsaire, Mr. Rockefeller, SimonJet, & LikeHumansDo", "", "Please remember we are not affiliated with Galen!"]
-    text = ""
+    c = ["TheMcCain: Bugfixing/Making the mod playable on CTS\n\nSamTheGreatestMan: Lead/Ideas\n\nPhoebe: Other Help"]
+    text = "CREDITS:\n\n"
     for (i in c) {
         text += c[i] + "\n"
     }
@@ -281,16 +281,16 @@ jet_data = {
     "backgroundImageUrl": "https://i.ibb.co/sRVgXWZ/image.png",
     "endingTextColor": "#000000",
     "customQuote": "",
-    "gameTitle": "𝖛𝖎𝖈𝖊."
+    "gameTitle": "𝖇𝖗𝖚𝖈𝖊."
 }
 
 //#startcode
-//corrr = '\n              <chen>𝖛𝖎𝖈𝖊.</chen>\n            ';
+//corrr = '\n              <chen>𝖇𝖗𝖚𝖈𝖊.</chen>\n            ';
 
 
 corrr = `
 <div class="window glass active" style="--window-background-color: #000;">
-<chen>𝖛𝖎𝖈𝖊.</chen>
+<chen>𝖇𝖗𝖚𝖈𝖊.</chen>
 </div>
 `;
 
@@ -1012,7 +1012,7 @@ addDynamicCSS();
   const gameWindow_player = document.getElementById("game_window");
   //use this function directly or put it in an event listener to start the music on the press of a certain button
   setupMusicPlayer();
-  viceAccessibility = 0;
+  𝖇𝖗𝖚𝖈𝖊Accessibility = 0;
 dyslexiaToggle = function() {
     if (document.getElementById("difficulty_level") && !document.getElementById("dyslexia_button")){ //this was originally meant to help players with dyslexia, but unfortunately TCT doesn't like changing fonts mid-game
         let bhOptions = [["None", 0], ["Disable Highlighter", 1]];
@@ -1037,7 +1037,7 @@ dyslexiaToggle = function() {
         ff.appendChild(dd);
         document.getElementById("difficulty_level").appendChild(ff);
         dd.addEventListener("change", function () {
-          viceAccessibility = this.value;
+          𝖇𝖗𝖚𝖈𝖊Accessibility = this.value;
         })
     } else {
         return;
@@ -1045,9 +1045,9 @@ dyslexiaToggle = function() {
 }
 
 const gamewindowthingy = document.getElementById("game_window");
-const initConfigVice = { attributes: true, childList: true, subtree: true };
-const changeObserverVice = new MutationObserver(dyslexiaToggle);
-changeObserverVice.observe(gamewindowthingy, initConfigVice);
+const initConfig𝖇𝖗𝖚𝖈𝖊 = { attributes: true, childList: true, subtree: true };
+const changeObserver𝖇𝖗𝖚𝖈𝖊 = new MutationObserver(dyslexiaToggle);
+changeObserver𝖇𝖗𝖚𝖈𝖊.observe(gamewindowthingy, initConfig𝖇𝖗𝖚𝖈𝖊);
 
 vpTableHistorical = {
     "Dick Cheney" : "Donald Rumsfeld",
