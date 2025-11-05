@@ -27,7 +27,16 @@ campaignTrail_temp.temp_election_list = [
     }
 ]
 
-campaignTrail_temp.credits = "RonPaulReloveution, SamTheGreatestMan, TheMcCain, & theanswerisme"
+credits = function() {
+    c = ["Writing", "SamTheGreatestMan", "RonPaulRevolution", "", "Coding", "TheMcCain", "", "Other Help", "theanswerisme", "littleamericanman", "", "Thanks for playing!"]
+    text = ""
+    for (i in c) {
+        text += c[i] + "\n"
+    }
+    alert(text)
+  }
+
+campaignTrail_temp.credits = "<button onclick='credits()'>Credits</button>";
 
 campaignTrail_temp.global_parameter_json = [
     {
