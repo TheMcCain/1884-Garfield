@@ -328,6 +328,9 @@ style.innerHTML = `
   .inner_window_w_desc h3 {
     color: white;
   }
+  .campaign_trail_start_emphasis {
+    background-color: #5F072D;
+  }
   #main_content_area_reading p,
   #final_results_description p,
   div#site_credits p,
