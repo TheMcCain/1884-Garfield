@@ -1,3 +1,13 @@
+campaignTrail_temp.modBoxTheme = {
+     "header_color": "#050505",
+     "header_text_color": "#ffffff",
+     "description_text_color": "#ffffff",
+     "description_background_color": "#000000",
+     "main_color": "#111213",
+     "secondary_color": "#1f2023",
+     "ui_text_color": "#ffffff"
+}
+
 RecReading=true;
 
 campaignTrail_temp.election_json = [
