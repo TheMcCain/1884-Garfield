@@ -1,3 +1,4 @@
+RecReading=true;
 
 campaignTrail_temp.election_json = [
     {
@@ -114,7 +115,7 @@ campaignTrail_temp.candidate_json = [
             "color_hex": "#FF0000",
             "secondary_color_hex": "#FFA0A0",
             "is_active": 0,
-            "image_url": "https://i.postimg.cc/YC5PJYRX/image.png",
+            "image_url": "https://i.postimg.cc/wBDYjgjC/image.png",
             "electoral_victory_message": "n/a",
             "electoral_loss_message": "n/a",
             "no_electoral_majority_message": "n/a",
@@ -219,7 +220,7 @@ campaignTrail_temp.temp_election_list = [
         "id": 5,
         "year": 1880,
         "is_premium": 0,
-        "display_year": "1880G"
+        "display_year": "1884G"
     }
 ]
 
