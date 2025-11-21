@@ -4,7 +4,7 @@ campaignTrail_temp.election_json = [
         "model": "campaign_trail.election",
         "pk": 5,
         "fields": {
-            "year": 1896,
+            "year": 1884,
             "summary": "He has done it. James Abram Garfield has risen up from the shadow of party strife to the highest office in the land. A scholar and a soldier, he has promised reconciliation and reform. To cleanse the spoils system and to guide the Union into a new age of honest governance.<br><br> But his victory has not silenced division. The Republican Party remains a house divided. Stalwarts and Half-Breeds, machine and reform, each pulling at the seams of Garfield’s coalition. While the specter of Reconstruction still roars and rages beneath the surface.<br><br> Now, as 1881 arrives, President Garfield must prove that compromise can defeat division, that unity shall stand strong, and that the promise of a united America did not die upon the fields of Chickamauga.",
             "image_url": "https://i.postimg.cc/xTgFTBRk/image.png",
             "winning_electoral_vote_number": 224,
@@ -13,7 +13,7 @@ campaignTrail_temp.election_json = [
             "has_visits": 0,
             "no_electoral_majority_image": "https://www.jetsimon.com/public/static/images/1896-no-majority.jpg",
             "creator": "Dan Bryan",
-            "display_year": "1880G"
+            "display_year": "1884G"
         }
     }
 ]
@@ -217,7 +217,7 @@ campaignTrail_temp.opponents_weighted_json = [
 campaignTrail_temp.temp_election_list = [
     {
         "id": 5,
-        "year": 1896,
+        "year": 1880,
         "is_premium": 0,
         "display_year": "1880G"
     }
