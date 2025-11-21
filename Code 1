@@ -1,34 +1,25 @@
 
-
 campaignTrail_temp.election_json = [
     {
         "model": "campaign_trail.election",
-        "pk": 20,
+        "pk": 5,
         "fields": {
-            "year": 2016,
-            "display_year": "1884G",
-            "summary": "He has done it. James Abram Garfield has risen up from the shadow of party strife to the highest office in the land. A scholar and a soldier, he has promised reconciliation and reform. To cleanse the spoils system and to guide the Union into a new age of honest governance.\n\n<p> But his victory has not silenced division. The Republican Party remains a house divided. Stalwarts and Half-Breeds, machine and reform, each pulling at the seams of Garfield’s coalition. While the specter of Reconstruction still roars and rages beneath the surface.\n\n<p> Now, as 1881 arrives, President Garfield must prove that compromise can defeat division, that unity shall stand strong, and that the promise of a united America did not die upon the fields of Chickamauga.",
-            "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/8c/The_Appomattox_of_the_third_termers_-_unconditional_surrender.jpg",
-            "winning_electoral_vote_number": 270,
-            "advisor_url": "123",
-            "recommended_reading": "<ul>\n<li><a href=https://www.chicagotribune.com/opinion/editorials/ct-edit-chicago-tribune-biden-endorsement-20200925-lnyxsb5qvrftnjjmj3rnzj33jy-story.html>Our Case For Joe Biden</a></li>\n<li><a href=https://nationalinterest.org/feature/case-trump-166808>The Case For Trump</a></li>\n<li><a href=https://www.npr.org/2020/11/18/935730100/how-biden-won-ramping-up-the-base-and-expanding-margins-in-the-suburbs>How Biden Won: Ramping Up The Base And Expanding Margins In The Suburbs</a></li>\n<li><a href=https://www.prospectmagazine.co.uk/politics/donald-trump-joe-biden-us-election-almost-win-votes-concede>Why Did Trump Almost Win?</a></li>\n<li><a href=https://www.hoover.org/research/no-evidence-voter-fraud-guide-statistical-claims-about-2020-election>No Evidence For Voter Fraud: A Guide To Statistical Claims About The 2020 Election</a></li>\n</ul>",
-            "has_visits": 1,
-            "no_electoral_majority_image": "../static/images/2012-no-majority.jpg"
+            "year": 1896,
+            "summary": "He has done it. James Abram Garfield has risen up from the shadow of party strife to the highest office in the land. A scholar and a soldier, he has promised reconciliation and reform. To cleanse the spoils system and to guide the Union into a new age of honest governance.<br><br> But his victory has not silenced division. The Republican Party remains a house divided. Stalwarts and Half-Breeds, machine and reform, each pulling at the seams of Garfield’s coalition. While the specter of Reconstruction still roars and rages beneath the surface.<br><br> Now, as 1881 arrives, President Garfield must prove that compromise can defeat division, that unity shall stand strong, and that the promise of a united America did not die upon the fields of Chickamauga.",
+            "image_url": "https://i.postimg.cc/xTgFTBRk/image.png",
+            "winning_electoral_vote_number": 224,
+            "advisor_url": "https://www.jetsimon.com/public/static/images/hanna-jones.jpg",
+            "recommended_reading": "<h4 style=\"margin-top: 0.5em;\">General Resources</h4>  <a href=\"http://www.uselectionatlas.org/RESULTS/national.php?f=0&year=1896\" target=\"_blank\">Final 1896 Results</a> <br> <a href=\"http://projects.vassar.edu/1896/1896home.html\" target=\"_blank\">1896 Election -- Overview and Political Cartoons</a> <br>  <h4>By the Candidates</h4>  William Jennings Bryan - <a href=\"http://books.google.com/books/about/The_first_battle.html?id=9k4TAAAAYAAJ\" target=\"_blank\">The First Battle: A story of the campaign of 1896</a> <br>  William Jennings Bryan - <a href=\"http://www.youtube.com/watch?v=Ydrq2-j92cU\" target=\"_blank\">\"Cross of Gold\" speech</a> <br>  William McKinley - <a href=\"http://www.youtube.com/watch?v=m6ZUneyU7Vo\" target=\"_blank\">\"Front Porch\" speech</a> <br>  <h4>The Panic of 1893</h4> <a href=\"http://www.youtube.com/watch?v=Qu_b6N-G1Os\" target=\"_blank\">The Panic of 1893 with Lawrence Reed</a> (video) <br> <a href=\"http://eh.net/encyclopedia/article/Whitten.panic.1893\" target=\"_blank\">The Depression of 1893</a>  <h4>Misceallany</h4> <a href=\"http://www.oyez.org/cases/1851-1900/1895/1895_210/\" target=\"_blank\">Plessy v. Ferguson</a> <br> <a href=\"http://www.stfrancis.edu/content/ba/ghkickul/stuwebs/btopics/works/PullmanStrike.htm\" target=\"_blank\">Pullman Strike of 1894</a> <br> <a href=\"http://en.wikipedia.org/wiki/Wilson%E2%80%93Gorman_Tariff_Act\" target=\"_blank\">Wilson-Gorman Tariff</a> <br> <a href=\"http://prosperityuk.com/2001/01/a-wonderful-wizard-of-oz-a-monetary-reform-parable/\" target=\"_blank\">The Wonderful Wizard of Oz - A Monetary Reform Parable</a>",
+            "has_visits": 0,
+            "no_electoral_majority_image": "https://www.jetsimon.com/public/static/images/1896-no-majority.jpg",
+            "creator": "Dan Bryan",
+            "display_year": "1880G"
         }
     }
 ]
 
-campaignTrail_temp.temp_election_list = [
-    {
-        "id": 20,
-        "year": 2016,
-        "is_premium": 0,
-        "display_year": "1884G"
-    }
-]
-
 credits = function() {
-    c = ["Writing", "SamTheGreatestMan", "RonPaulRevolution", "", "Coding", "TheMcCain", "", "Other Help", "theanswerisme", "littleamericanman", "", "Thanks for playing!"]
+    c = ["Lead", "SamTheGreatestMan", "", "Writing", "SamTheGreatestMan", "RonPaulRevolution", "", "Coding", "TheMcCain", "", "Other Help", "theanswerisme", "littleamericanman", "", "Thanks for playing!"]
     text = ""
     for (i in c) {
         text += c[i] + "\n"
@@ -36,7 +27,145 @@ credits = function() {
     alert(text)
   }
 
-campaignTrail_temp.credits = "<button onclick='credits()'>Credits</button>";
+campaignTrail_temp.credits = "<button onclick='credits()'>Various People</button>";
+
+
+campaignTrail_temp.candidate_json = [
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 20,
+        "fields": {
+            "first_name": "James",
+            "last_name": "Garfield",
+            "election": 5,
+            "party": "Republican",
+            "state": "Ohio",
+            "priority": 1,
+            "description": "<p>James Abram Garfield - the 20th President of the United States. First a general, then a representative for Ohio's 19th Congressional District, he was given the Republican throne on the 36th ballot after Blaine and Sherman endorsed him to destroy Grant. <br><br> Facing a fellow Union general, the Republican Party was unable to wave the bloody shirt as effectively. In any case, Garfield was able to narrowly defeat Hancock, with just 2,000 votes seperating them in the popular vote. Garfield has arisen to the Presidency with an increasingly shrinking Republican majority. His party still controls a trifecta, with the Presidency and in Congress, but only time will tell if it shall hold, or if the Democrats will finally seize the Presidency they have so long desired.</p>",
+            "color_hex": "#FF0000",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 1,
+            "image_url": "https://i.postimg.cc/zXd01KzR/image.png",
+            "electoral_victory_message": "<h3>Congratulations! You have won the 1896 election.</h3><p>In spite of a real scare from Mr. Bryan, you have done your part to preserve good order in the United States.</p><p>None of that changes the fact that the country is facing a depression with millions out of work. Are you the man to lead the nation back into greatness?</p><p>Your first order of business will be tariff increases to stimulate industry, as well as a new commitment to the gold standard.</p>",
+            "electoral_loss_message": "<h3>Sorry! You have lost the 1896 election.</h3><p>The titans of American industry were counting on you to put down this nonsense idea of free silver, and to protect them from the other whims of the populist Democrats. Your defeat will go down as one of the most ignominous in the history of American politics.</p><p>Bryan's victory stings all the more because after the inept Cleveland Administration, this election shouldn't have been close. Needless to say, your political career is over.</p>",
+            "no_electoral_majority_message": "<h3>Wow! You have won a true nail-biter.</h3><p>No candidate achieved a majority of the electoral votes, marking the first time this has happened since 1824. Fortunately for you, the majority of U.S. states have Republican controlled congressional delegations, and they will cast their votes for you accordingly.</p><p>The important thing is that you won. Go about implementing your agenda accordingly, and pay no attention to Democrats and agitators who call for 'compromise' and 'conciliation'.</p>",
+            "description_as_running_mate": null,
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 21,
+        "fields": {
+            "first_name": "Mr.",
+            "last_name": "Democrats",
+            "election": 5,
+            "party": "Democrat",
+            "state": "Nebraska",
+            "priority": 2,
+            "description": "<p>William Jennings Bryan electrified the convention in Chicago with his famous \"Cross of Gold\" speech.</p><p>Running as a liberal and an evangelical, his primary issue is the inflation of the currency through the free coinage of silver. This gives him fanatical support amongst the farmers of the South and the West. Lacking the funds to run a large campaign, Bryan will bring his speaking talents to bear by touring the United States.</p>",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 0,
+            "image_url": "https://www.jetsimon.com/public/static/images/william-jennings-bryan-1896.jpg",
+            "electoral_victory_message": "<h3>Congratulations! You have won the 1896 election.</h3><p>\"The Great Commoner\" will soon be President of the United States! Nobody with your political views has ever sniffed the Presidency, let alone won it, and with that in mind your supporters are rioting frenziedly in the streets. The sweetest speech of all will be your victory speech tomorrow in Lincoln, Nebraska. Prepare to enact your reform agenda and most importantly the free coinage of silver.</p>",
+            "electoral_loss_message": "<h3>Sorry! You have lost the 1896 election.</h3><p>With all of the maneuvering, chicanery, and propoganda that the Republicans threw at you, it's amazing that you even had a chance.</p><p>Regardless of the outcome this time, you have built a legion of devoted followers who will support anything you do. If you play your cards right, you just might get another shot against McKinley in four years...</p>",
+            "no_electoral_majority_message": "<h3>Sorry! You have lost in a squeaker.</h3><p>No candidate achieved a majority of the electoral votes, marking the first time this has happened since 1824. Unfortunately  for you, the majority of U.S. states have Republican controlled congressional delegations, and they will cast their votes for William McKinley.</p><p>Given the incredibly close nature of the election, you can certainly set your sights on a political comeback in 1900, if that is what you desire.</p>",
+            "description_as_running_mate": null,
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 22,
+        "fields": {
+            "first_name": "John",
+            "last_name": "Others",
+            "election": 5,
+            "party": "Gold Democrat",
+            "state": "Illinois",
+            "priority": 3,
+            "description": "<p>John Palmer is a splinter candidate put forward by Democrats who favor the gold standard. He has little chance of winning the general election, but a very good chance of pulling enough votes from Bryan to cause his defeat in certain states. This is the goal of conservative Democrats who simply wish to hold out until 1900 and nominate a better candidate than the radical Bryan.</p>",
+            "color_hex": "#FFFF00",
+            "secondary_color_hex": "#FFFFC0",
+            "is_active": 0,
+            "image_url": null,
+            "electoral_victory_message": "Congratulations!",
+            "electoral_loss_message": "Better luck next time!",
+            "no_electoral_majority_message": "Congratulations!",
+            "description_as_running_mate": null,
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 45,
+        "fields": {
+            "first_name": "Chester",
+            "last_name": "Arthur",
+            "election": 5,
+            "party": "Republican",
+            "state": "New York",
+            "priority": 20,
+            "description": "n/a",
+            "color_hex": "#FF0000",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 0,
+            "image_url": "https://i.postimg.cc/YC5PJYRX/image.png",
+            "electoral_victory_message": "n/a",
+            "electoral_loss_message": "n/a",
+            "no_electoral_majority_message": "n/a",
+            "description_as_running_mate": "<p>When Garfield asked Chester Alan Arthur to stand as his running mate, it was for one reason and one reason only — to appease the Stalwarts that Garfield so long has despised. After Garfield won the election, Arthur has continued to serve in the mainly ceremonial role of Vice President. <br><br>Arthur finds himself sidelined at every turn. Increasingly uncomfortable in his role, from his allegiance to the New York machinations, he grows distant and detached. A figurehead whose influence fades every day. Even now it seems inevitable: Arthurs days as vice president are numbered.",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 53,
+        "fields": {
+            "first_name": "Horace",
+            "last_name": "Boies",
+            "election": 5,
+            "party": "Democrat",
+            "state": "Iowa",
+            "priority": 28,
+            "description": "n/a",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 0,
+            "image_url": "https://www.jetsimon.com/public/static/images/horace-boies-1896.jpg",
+            "electoral_victory_message": "n/a",
+            "electoral_loss_message": "n/a",
+            "no_electoral_majority_message": "n/a",
+            "description_as_running_mate": "<p>Horace Boies was swept into the Governor's chair in Iowa during the 1890 Democratic rout. He is strongly supportive of low tariffs and free silver, and has a lot of influence in some potentially important states. He is also more moderate on the Prohibition issue.</p><p>Boies will reinforce the Democrats' pivot to liberalism, which could be a plus or a minus depending on the area.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    }
+]
+
+campaignTrail_temp.running_mate_json = [
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 22,
+        "fields": {
+            "candidate": 20,
+            "running_mate": 45
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 32,
+        "fields": {
+            "candidate": 21,
+            "running_mate": 53
+        }
+    }
+]
 
 campaignTrail_temp.global_parameter_json = [
     {
@@ -63,265 +192,96 @@ campaignTrail_temp.global_parameter_json = [
     }
 ]
 
-campaignTrail_temp.candidate_json = [
-    {
-        "model": "campaign_trail.candidate",
-        "pk": 1001,
-        "fields": {
-            "first_name": "Mr",
-            "last_name": "President",
-            "election": 20,
-            "party": "Turbo Team",
-            "state": "Idaho",
-            "priority": 1,
-            "description": "<p>Put description here</p>",
-            "color_hex": "#0000FF",
-            "secondary_color_hex": null,
-            "is_active": 1,
-            "image_url": "https://www.jetsimon.com/public/candidateexample.png",
-            "electoral_victory_message": "This guy wins!",
-            "electoral_loss_message": "This guy loses!",
-            "no_electoral_majority_message": "We all win?",
-            "description_as_running_mate": null,
-            "candidate_score": 1,
-            "running_mate": false
-        }
-    },
-    {
-        "model": "campaign_trail.candidate",
-        "pk": 1002,
-        "fields": {
-            "first_name": "Running",
-            "last_name": "Mate",
-            "election": 20,
-            "party": "Turbo Team",
-            "state": "Idaho",
-            "priority": 1,
-            "description": "<p>Put description here</p>",
-            "color_hex": "#0000FF",
-            "secondary_color_hex": null,
-            "is_active": 0,
-            "image_url": "https://www.jetsimon.com/public/candidateexample.png",
-            "electoral_victory_message": "This guy wins!",
-            "electoral_loss_message": "This guy loses!",
-            "no_electoral_majority_message": "We all win?",
-            "description_as_running_mate": "<p>This is a running mate description it only shows for running mates</p>",
-            "candidate_score": 1,
-            "running_mate": true
-        }
-    }
-]
-
-campaignTrail_temp.running_mate_json = [
-    {
-        "model": "campaign_trail.running_mate",
-        "pk": 109261,
-        "fields": {
-            "candidate": 1001,
-            "running_mate": 1002
-        }
-    }
-]
-
 campaignTrail_temp.opponents_default_json = [
     {
-        "election": 20,
+        "election": 5,
         "candidates": [
-            1001
+            20,
+            21,
+            22
         ]
     }
 ]
 
 campaignTrail_temp.opponents_weighted_json = [
     {
-        "election": 20,
+        "election": 5,
         "candidates": [
-            1001
+            20,
+            21,
+            22
         ]
-    }
-]
-
-jet_data = {
-    "headerColor": "#302e43",
-    "windowColor": "#5f072d",
-    "containerColor": "#5f072d",
-    "innerWindowColor": "#26516a",
-    "bannerImageUrl": "https://i.imgur.com/5aJqKC6.png",
-    "backgroundImageUrl": "https://i.imgur.com/KtYULft.jpeg",
-    "endingTextColor": "#000000",
-    "customQuote": "Let justice be done, though the heavens fall.",
-    "gameTitle": "VIVA GARFIELD"
-}
-
-//#startcode
-
-
-campaignTrail_temp.election_json = [
-    {
-        "model": "campaign_trail.election",
-        "pk": 20,
-        "fields": {
-            "year": 2016,
-            "display_year": "1884G",
-            "summary": "He has done it. James Abram Garfield has risen up from the shadow of party strife to the highest office in the land. A scholar and a soldier, he has promised reconciliation and reform. To cleanse the spoils system and to guide the Union into a new age of honest governance.\n\n<p> But his victory has not silenced division. The Republican Party remains a house divided. Stalwarts and Half-Breeds, machine and reform, each pulling at the seams of Garfield’s coalition. While the specter of Reconstruction still roars and rages beneath the surface.\n\n<p> Now, as 1881 arrives, President Garfield must prove that compromise can defeat division, that unity shall stand strong, and that the promise of a united America did not die upon the fields of Chickamauga.",
-            "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/8c/The_Appomattox_of_the_third_termers_-_unconditional_surrender.jpg",
-            "winning_electoral_vote_number": 270,
-            "advisor_url": "123",
-            "recommended_reading": "<ul>\n<li><a href=https://www.chicagotribune.com/opinion/editorials/ct-edit-chicago-tribune-biden-endorsement-20200925-lnyxsb5qvrftnjjmj3rnzj33jy-story.html>Our Case For Joe Biden</a></li>\n<li><a href=https://nationalinterest.org/feature/case-trump-166808>The Case For Trump</a></li>\n<li><a href=https://www.npr.org/2020/11/18/935730100/how-biden-won-ramping-up-the-base-and-expanding-margins-in-the-suburbs>How Biden Won: Ramping Up The Base And Expanding Margins In The Suburbs</a></li>\n<li><a href=https://www.prospectmagazine.co.uk/politics/donald-trump-joe-biden-us-election-almost-win-votes-concede>Why Did Trump Almost Win?</a></li>\n<li><a href=https://www.hoover.org/research/no-evidence-voter-fraud-guide-statistical-claims-about-2020-election>No Evidence For Voter Fraud: A Guide To Statistical Claims About The 2020 Election</a></li>\n</ul>",
-            "has_visits": 1,
-            "no_electoral_majority_image": "../static/images/2012-no-majority.jpg"
-        }
     }
 ]
 
 campaignTrail_temp.temp_election_list = [
     {
-        "id": 20,
-        "year": 2016,
+        "id": 5,
+        "year": 1896,
         "is_premium": 0,
-        "display_year": "1884G"
-    }
-]
-campaignTrail_temp.global_parameter_json = [
-    {
-        "model": "campaign_trail.global_parameter",
-        "pk": 1,
-        "fields": {
-            "vote_variable": 1.125,
-            "max_swing": 0.12,
-            "start_point": 0.94,
-            "candidate_issue_weight": 10,
-            "running_mate_issue_weight": 3,
-            "issue_stance_1_max": -0.71,
-            "issue_stance_2_max": -0.3,
-            "issue_stance_3_max": -0.125,
-            "issue_stance_4_max": 0.125,
-            "issue_stance_5_max": 0.3,
-            "issue_stance_6_max": 0.71,
-            "global_variance": 0.01,
-            "state_variance": 0.005,
-            "question_count": 25,
-            "default_map_color_hex": "#C9C9C9",
-            "no_state_map_color_hex": "#999999"
-        }
-    }
-]
-
-campaignTrail_temp.candidate_json = [
-    {
-        "model": "campaign_trail.candidate",
-        "pk": 1001,
-        "fields": {
-            "first_name": "Mr",
-            "last_name": "President",
-            "election": 20,
-            "party": "Turbo Team",
-            "state": "Idaho",
-            "priority": 1,
-            "description": "<p>Put description here</p>",
-            "color_hex": "#0000FF",
-            "secondary_color_hex": null,
-            "is_active": 1,
-            "image_url": "https://www.jetsimon.com/public/candidateexample.png",
-            "electoral_victory_message": "This guy wins!",
-            "electoral_loss_message": "This guy loses!",
-            "no_electoral_majority_message": "We all win?",
-            "description_as_running_mate": null,
-            "candidate_score": 1,
-            "running_mate": false
-        }
-    },
-    {
-        "model": "campaign_trail.candidate",
-        "pk": 1002,
-        "fields": {
-            "first_name": "Running",
-            "last_name": "Mate",
-            "election": 20,
-            "party": "Turbo Team",
-            "state": "Idaho",
-            "priority": 1,
-            "description": "<p>Put description here</p>",
-            "color_hex": "#0000FF",
-            "secondary_color_hex": null,
-            "is_active": 0,
-            "image_url": "https://www.jetsimon.com/public/candidateexample.png",
-            "electoral_victory_message": "This guy wins!",
-            "electoral_loss_message": "This guy loses!",
-            "no_electoral_majority_message": "We all win?",
-            "description_as_running_mate": "<p>This is a running mate description it only shows for running mates</p>",
-            "candidate_score": 1,
-            "running_mate": true
-        }
-    }
-]
-
-campaignTrail_temp.running_mate_json = [
-    {
-        "model": "campaign_trail.running_mate",
-        "pk": 109261,
-        "fields": {
-            "candidate": 1001,
-            "running_mate": 1002
-        }
-    }
-]
-
-campaignTrail_temp.opponents_default_json = [
-    {
-        "election": 20,
-        "candidates": [
-            1001
-        ]
-    }
-]
-
-campaignTrail_temp.opponents_weighted_json = [
-    {
-        "election": 20,
-        "candidates": [
-            1001
-        ]
+        "display_year": "1880G"
     }
 ]
 
 jet_data = {
-    "headerColor": "#302e43",
-    "windowColor": "#5f072d",
-    "containerColor": "#5f072d",
-    "innerWindowColor": "#26516a",
-    "bannerImageUrl": "https://i.imgur.com/5aJqKC6.png",
-    "backgroundImageUrl": "https://i.imgur.com/KtYULft.jpeg",
-    "endingTextColor": "#000000",
-    "customQuote": "Let justice be done, though the heavens fall.",
-    "gameTitle": "VIVA GARFIELD"
+    "headerColor": "#000000",
+    "windowColor": "#242424",
+    "containerColor": "#e8fbff",
+    "innerWindowColor": "#141414",
+    "bannerImageUrl": "https://i.postimg.cc/76YkbSzx/image.png",
+    "backgroundImageUrl": "https://i.postimg.cc/5tfck8nv/image.png",
+    "endingTextColor": "#ffffff",
+    "customQuote": "q",
+    "gameTitle": "CAMPAIGN TRAIL SHOWCASE"
 }
 
- $("#game_window")[0].style.backgroundSize = "cover"; quotes = ["'Man cannot live by bread alone; he must have peanut butter.' - James Garfield", "'The truth will set you free, but first it will make you miserable.' - James Garfield", "Let justice be done, though the heavens fall."] 
-customquote = quotes[Math.floor((Math.random() * quotes.length))]
-corrr = `
-<div style="background-color:#302E43; color:white; margin:0;">
-  <h2 style="margin:0;">CAMPAIGN TRAIL SHOWCASE</h2>
-  <font id='wittyquote' size='4' color='white'>
-    <em>${customquote}</em>
-  </font>
-</div>
-`;
+//#startcode
 
 
-nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#5f072d";
+corrr = '\n              <h2>VIVA GARFIELD</h2>\n            ';
 
-nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#1e4167";
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#000000";
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#242424";
+
+document.getElementsByClassName("game_header")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_title;
 
 $("#game_window")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_window;
 
-$(".container")[0].style.backgroundColor = "#5f072d";
+$(".container")[0].style.backgroundColor = "#000000";
 
-document.getElementById("header").src = "https://i.imgur.com/5aJqKC6.png";
+document.getElementById("header").src = "https://i.postimg.cc/76YkbSzx/image.png";
 
-document.body.background = "https://i.imgur.com/KtYULft.jpeg";
+document.body.background = "https://i.postimg.cc/5tfck8nv/image.png";
 
-document.head.innerHTML += "<style>#results_container {color:#000000;} .inner_window_w_desc {background-color:#26516a!important;}";
+document.head.innerHTML += "<style>#results_container {color:#ffffff;} .inner_window_w_desc {background-color:#141414!important;}</style>";
+
+$("#game_window")[0].style.backgroundImage = "url(https://i.postimg.cc/TY4m2cz6/image.png)"
+
+function appendStyle() {
+    if (!document.querySelector('meta[name="viewport"]')) {
+        const metaTag = document.createElement('meta');
+        metaTag.name = "viewport";
+        metaTag.content = "width=device-width, initial-scale=1";
+        document.head.appendChild(metaTag);
+    }
+
+    if (!document.querySelector('#radio-option-style')) {
+        const style = document.createElement('style');
+        style.id = 'radio-option-style';
+        style.textContent = `
+          body {
+               background-image: url(https://i.postimg.cc/5tfck8nv/image.png);
+               background-position: center;
+               background-size: cover;
+          }
+        `;
+        document.head.appendChild(style);
+    }
+}
+
+appendStyle();
 
 //#endcode
 
@@ -343,6 +303,9 @@ style.innerHTML = `
   div#site_credits a,
   p#credits {
     color: white !important;
+  }
+  .campaign_trail_start_emphasis {
+    background: #000000;
   }
  .game_header {
   background-color: [#302E43];
