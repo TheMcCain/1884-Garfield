@@ -10,6 +10,11 @@ campaignTrail_temp.modBoxTheme = {
 
 RecReading=true;
 
+
+document.getElementById("inner_window_1").children[0].innerHTML=`<h3>Do you have what it takes to win a second term?</h3>`
+
+document.getElementById("inner_window_1").children[1].innerHTML = `<li>You will answer questions about your platform and positions, and about your campaign strategy.</li><li>The answer's will effect your popularity for better or worse, both nationally and in individual states.</li><li>Walk a fine line between keeping your party united, and appealing to the common man.</li><li>Additionally, the game includes achievements, diverging paths, and secret endings.</li><li>When you feel prepared, press "Click here to begin".</li>`;
+
 campaignTrail_temp.election_json = [
     {
         "model": "campaign_trail.election",
@@ -30,7 +35,7 @@ campaignTrail_temp.election_json = [
 ]
 
 credits = function() {
-    c = ["Lead", "SamTheGreatestMan", "", "Writing", "SamTheGreatestMan", "RonPaulRevolution", "", "Coding", "TheMcCain", "", "Other Help", "theanswerisme", "littleamericanman", "", "Thanks for playing!"]
+    c = ["Coding", "TheMcCain", "", "Writing", "SamTheGreatestMan", "RonPaulRevolution", "", "Other Help", "theanswerisme", "", "Banner", "littleamericanman", "", "Lead", "SamTheGreatestMan", "Thanks for playing!"]
     text = ""
     for (i in c) {
         text += c[i] + "\n"
@@ -38,7 +43,7 @@ credits = function() {
     alert(text)
   }
 
-campaignTrail_temp.credits = "<button onclick='credits()'>Various People</button>";
+campaignTrail_temp.credits = "<button onclick='credits()'>Credits</button>";
 
 
 campaignTrail_temp.candidate_json = [
@@ -324,7 +329,7 @@ themeStyle.id = "theme-style";
 document.head.appendChild(themeStyle);
 
 const gameThemes = {
-  Midnight: function() {
+  'Death Avoided': function() {
     const theme = nct_stuff.themes[nct_stuff.selectedTheme];
 
     // Theme colors
@@ -349,6 +354,15 @@ document.body.style.backgroundRepeat = "no-repeat";
       <h2>VIVA GARFIELD</h2>
       <font id='wittyquote' size='90'><em>${customquote}</em></font>
     `;
+
+const style_overwrite = document.createElement("style");
+style_overwrite.innerHTML = 
+`#campaign_sign {
+  background-color: #191919;
+  border-color: #121212;
+}`
+;
+document.head.appendChild(style_overwrite);
 
     // Update theme CSS dynamically
     themeStyle.innerHTML = `
@@ -388,7 +402,7 @@ body {
 
 
 
-  Colored: function() {
+  'Expansion of the Republic': function() {
     const theme = nct_stuff.themes[nct_stuff.selectedTheme];
 
     // Theme colors
@@ -413,6 +427,15 @@ document.body.style.backgroundRepeat = "no-repeat";
       <h2>VIVA GARFIELD</h2>
       <font id='wittyquote' size='90'><em>${customquote}</em></font>
     `;
+
+const style_overwrite = document.createElement("style");
+style_overwrite.innerHTML = 
+`#campaign_sign {
+  background-color: #816242;
+  border-color: #967d62;
+}`
+;
+document.head.appendChild(style_overwrite);
 
 $("#game_window")[0].style.backgroundImage = "url(https://i.postimg.cc/RVkCcCJc/image.png)"
 
