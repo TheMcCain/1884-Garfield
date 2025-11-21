@@ -268,31 +268,7 @@ document.body.background = "https://i.postimg.cc/5tfck8nv/image.png";
 
 document.head.innerHTML += "<style>#results_container {color:#ffffff;} .inner_window_w_desc {background-color:#141414!important;}</style>";
 
-$("#game_window")[0].style.backgroundImage = "url(https://i.postimg.cc/TY4m2cz6/image.png)"
-
-function appendStyle() {
-    if (!document.querySelector('meta[name="viewport"]')) {
-        const metaTag = document.createElement('meta');
-        metaTag.name = "viewport";
-        metaTag.content = "width=device-width, initial-scale=1";
-        document.head.appendChild(metaTag);
-    }
-
-    if (!document.querySelector('#radio-option-style')) {
-        const style = document.createElement('style');
-        style.id = 'radio-option-style';
-        style.textContent = `
-          body {
-               background-image: url(https://i.postimg.cc/5tfck8nv/image.png);
-               background-position: center;
-               background-size: cover;
-          }
-        `;
-        document.head.appendChild(style);
-    }
-}
-
-appendStyle();
+$("#game_window")[0].style.backgroundImage = "url(https://i.postimg.cc/pTRpKW4b/image.png)"
 
 //#endcode
 
@@ -321,10 +297,169 @@ style.innerHTML = `
  .game_header {
   background-color: [#302E43];
 }
-#theme_picker,
-  .footer h4 {
-    display: none;
-  }
+
+body {
+    background-position: center;
+    background-size: cover;
+}
+
 `
 
 document.head.appendChild(style);
+
+
+
+
+
+
+
+
+
+
+
+
+// Create a single style element for theme overrides
+let themeStyle = document.createElement("style");
+themeStyle.id = "theme-style";
+document.head.appendChild(themeStyle);
+
+const gameThemes = {
+  Midnight: function() {
+    const theme = nct_stuff.themes[nct_stuff.selectedTheme];
+
+    // Theme colors
+    theme.coloring_title = "#000000";
+    theme.coloring_window = "#242424";
+
+    // DOM updates
+    document.querySelector(".game_header").style.backgroundColor = theme.coloring_title;
+    document.querySelector("#game_window").style.backgroundColor = theme.coloring_window;
+    document.querySelector(".container").style.backgroundColor = "#000000";
+    document.getElementById("header").src = "https://i.postimg.cc/76YkbSzx/image.png";
+document.body.style.backgroundImage = "url(https://i.postimg.cc/5tfck8nv/image.png)";
+document.body.style.backgroundPosition = "center";
+document.body.style.backgroundSize = "cover";
+document.body.style.backgroundRepeat = "no-repeat";
+    document.querySelector("#game_window").style.backgroundImage = "url(https://i.postimg.cc/TY4m2cz6/image.png)";
+
+    // Quotes
+    const quotes = [""];
+    const customquote = quotes[Math.floor(Math.random() * quotes.length)];
+    corrr = `
+      <h2>VIVA GARFIELD</h2>
+      <font id='wittyquote' size='90'><em>${customquote}</em></font>
+    `;
+
+    // Update theme CSS dynamically
+    themeStyle.innerHTML = `
+      #results_container { color:#ffffff; }
+      .inner_window_w_desc { background-color:#141414 !important; }
+      .campaign_trail_start_emphasis { background: #000000 !important; }
+      #final_results_description h3,
+      #overall_details_container h3,
+      #overall_election_details h4,
+      #main_content_area_reading h3.results_tab_header,
+      .inner_window_w_desc h3 {
+        color: white;
+      }
+      #main_content_area_reading p,
+      #final_results_description p,
+      div#site_credits p,
+      div#site_credits a,
+      p#credits {
+        color: white !important;
+      }
+
+$("#game_window")[0].style.backgroundImage = "url(https://i.postimg.cc/pTRpKW4b/image.png)"
+
+
+      .game_header { background-color: #302E43; }
+body {
+    background-position: center;
+    background-size: cover;
+}
+    `;
+  },
+
+
+
+
+
+
+
+
+  Colored: function() {
+    const theme = nct_stuff.themes[nct_stuff.selectedTheme];
+
+    // Theme colors
+    theme.coloring_title = "#97663b";
+    theme.coloring_window = "#a48970";
+    theme.text_col = "black";
+
+    // DOM updates
+    document.querySelector(".game_header").style.backgroundColor = theme.coloring_title;
+    document.querySelector("#game_window").style.backgroundColor = theme.coloring_window;
+    document.querySelector(".container").style.backgroundColor = "#9b6841";
+    document.getElementById("header").src = "https://i.postimg.cc/RZWCt607/image.png";
+document.body.style.backgroundImage = "url(https://i.postimg.cc/SssgQhdN/image.png)";
+document.body.style.backgroundPosition = "center";
+document.body.style.backgroundSize = "cover";
+document.body.style.backgroundRepeat = "no-repeat";
+
+    // Quotes
+    const quotes = [""];
+    const customquote = quotes[Math.floor(Math.random() * quotes.length)];
+    corrr = `
+      <h2>VIVA GARFIELD</h2>
+      <font id='wittyquote' size='90'><em>${customquote}</em></font>
+    `;
+
+$("#game_window")[0].style.backgroundImage = "url(https://i.postimg.cc/RVkCcCJc/image.png)"
+
+
+    // Update theme CSS dynamically
+    themeStyle.innerHTML = `
+      #results_container { color:#ffffff; }
+      .inner_window_w_desc { background-color:#917459 !important; }
+      .campaign_trail_start_emphasis { background: #97663B !important; }
+      #final_results_description h3,
+      #overall_details_container h3,
+      #overall_election_details h4,
+      #main_content_area_reading h3.results_tab_header,
+      .inner_window_w_desc h3 {
+        color: white;
+      }
+      #main_content_area_reading p,
+      #final_results_description p,
+      div#site_credits p,
+      div#site_credits a,
+      p#credits {
+        color: white !important;
+      }
+      .game_header { background-color: #302E43; }
+body {
+    background-position: center;
+    background-size: cover;
+}
+    `;
+  }
+};
+
+
+// Replace old theme picker
+const themePicker = document.getElementById("themePicker");
+const newThemePicker = document.createElement("select");
+newThemePicker.id = "themePicker";
+newThemePicker.addEventListener("change", gameThemePicked);
+let newInnerHTML = "";
+for(theme in gameThemes) {
+    newInnerHTML += `<option value="${theme}">${theme}</option>`;
+}
+newThemePicker.innerHTML = newInnerHTML;
+themePicker.replaceWith(newThemePicker);
+
+function gameThemePicked() {
+    gameThemes[newThemePicker.value]();
+}
+
+gameThemePicked();
