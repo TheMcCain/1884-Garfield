@@ -12,8 +12,18 @@ RecReading=true;
 
 
 document.getElementById("inner_window_1").children[0].innerHTML=`<h3>Do you have what it takes to win a second term?</h3>`
+document.getElementById("inner_window_1").children[1].innerHTML = `This is the story of a man, who rose from humble beginnings to become the 20th president of the United States. One where he manages to complete his term, and not have his life cut short by a maniac.  <li>You will answer questions about your platform and positions, and about your campaign strategy. <li>The answer's will effect your popularity for better or worse, both nationally and in individual states. <li> Walk a fine line between keeping your party united, and appealing to the common man. </li> Now, are you ready to fight for the good of the people?`
 
-document.getElementById("inner_window_1").children[1].innerHTML = `This is the story of a man, who rose from humble beginnings to become the 20th president of the United States. One where he manages to complete his term, and not have his life cut short by a maniac.  <li>You will answer questions about your platform and positions, and about your campaign strategy. <li>The answer's will effect your popularity for better or worse, both nationally and in individual states. <li> Walk a fine line between keeping your party united, and appealing to the common man. </li> Now, are you ready to fight like hell, for the good of the people?`
+const gameStart = document.getElementById('game_start');
+    const gameWindow = document.getElementById('game_window');
+
+    if (gameStart) {
+        gameStart.innerHTML = "<strong>I'm ready.</strong>";
+        const clearHeight = () => { if (gameWindow) gameWindow.style.removeProperty('height'); };
+        if (window.jQuery) $('#game_start').on('click', clearHeight);
+        else gameStart.addEventListener('click', clearHeight);
+    }
+
 campaignTrail_temp.election_json = [
     {
         "model": "campaign_trail.election",
