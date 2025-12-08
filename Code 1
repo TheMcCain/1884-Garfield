@@ -44,7 +44,7 @@ campaignTrail_temp.election_json = [
 ]
 
 credits = function() {
-    c = ["Coding", "TheMcCain", "", "Writing", "SamTheGreatestMan", "RonPaulRevolution", "", "Other Help", "theanswerisme", "", "Banner", "littleamericanman", "", "Lead", "SamTheGreatestMan", "Thanks for playing!"]
+    c = ["Coding", "TheMcCain", "", "Writing", "SamTheGreatestMan", "RonPaulRevolution", "Vice President J.D Vance\n", "Other Help", "theanswerisme", "", "Banner", "littleamericanman", "", "Lead", "SamTheGreatestMan\n", "Thanks for playing!"]
     text = ""
     for (i in c) {
         text += c[i] + "\n"
