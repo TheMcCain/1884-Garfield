@@ -4,7 +4,7 @@ campaignTrail_temp.questions_json = [
         "pk": 623,
         "fields": {
             "priority": 0,
-            "description": "Congratulations, James. The Presidency has been secured for the Republicans yet again, I hope that you can accomplish your goals, and that you can follow your heart. But now, let's put it all aside, and focus on your inauguration speech. \n",
+            "description": "Congratulations, James. It was looking close for a while, but you have defeated the slave-holding Democrats and secured another term for the Grand Old Party. But now, let's put it all aside, and focus on your inauguration speech. What tone are you looking to strike this Inauguration Day? \n",
             "likelihood": 1
         }
     },
@@ -100,28 +100,10 @@ campaignTrail_temp.questions_json = [
     },
     {
         "model": "campaign_trail.question",
-        "pk": 632,
+        "pk": 14557,
         "fields": {
-            "priority": 11,
-            "description": "12A <-- REMOVE THIS ONCE COMPLETED Mr. President, Secretary Frelinghuysen has successfully negotiated a treaty with Nicaragua, and they have agreed to give us rights to construct an interoceanic canal. The Atlantic and Pacific oceans may finally be connected. Though some say this will risk the nation being entangled in foreign quarrels. Will you press the senate to ratify the treaty?\n",
-            "likelihood": 1
-        }
-    },
-    {
-        "model": "campaign_trail.question",
-        "pk": 631,
-        "fields": {
-            "priority": 12,
-            "description": "12B <--- REMOVE ONCE COMPLETED Mr. President, Secretary Evarts has pursued a policy of neutrality within Latin American disputes. He has refused to involve the United States in regional conflicts or to back commercial concessions abroad. His legalistic approach has caused several to urge you to direct him to take more firm action. The question is, will you?\n",
-            "likelihood": 1
-        }
-    },
-    {
-        "model": "campaign_trail.question",
-        "pk": 633,
-        "fields": {
-            "priority": 13,
-            "description": "12C: <---- REMOVE ONCE COMPLETED Mr. President, Secretary Hoar has spoken passionately in the defense of liberty and republican ideals. He has condemned European ventures abroad, and has been committed to moral leadership. Particularly, he has been interested in Santo Domingo, and the expansion of military bases in that area. Though critics warn it could be a path to interventionism. How will you press your thumb on the scale?\n",
+            "priority": 0,
+            "description": "Q12 - Secretary of State",
             "likelihood": 1
         }
     },
@@ -280,10 +262,28 @@ campaignTrail_temp.questions_json = [
     },
     {
         "model": "campaign_trail.question",
-        "pk": 14557,
+        "pk": 632,
         "fields": {
-            "priority": 0,
-            "description": "put description here",
+            "priority": 11,
+            "description": "Mr. President, Secretary Frelinghuysen has successfully negotiated a treaty with Nicaragua, and they have agreed to give us rights to construct an interoceanic canal. The Atlantic and Pacific oceans may finally be connected. Though some say this will risk the nation being entangled in foreign quarrels. Will you press the senate to ratify the treaty?\n",
+            "likelihood": 1
+        }
+    },
+    {
+        "model": "campaign_trail.question",
+        "pk": 631,
+        "fields": {
+            "priority": 12,
+            "description": "Mr. President, Secretary Evarts has pursued a policy of neutrality within Latin American disputes. He has refused to involve the United States in regional conflicts or to back commercial concessions abroad. His legalistic approach has caused several to urge you to direct him to take more firm action. The question is, will you?\n",
+            "likelihood": 1
+        }
+    },
+    {
+        "model": "campaign_trail.question",
+        "pk": 633,
+        "fields": {
+            "priority": 13,
+            "description": "Mr. President, Secretary Hoar has spoken passionately in the defense of liberty and republican ideals. He has condemned European ventures abroad, and has been committed to moral leadership. Particularly, he has been interested in Santo Domingo, and the expansion of military bases in that area. Though critics warn it could be a path to interventionism. How will you press your thumb on the scale?\n",
             "likelihood": 1
         }
     }
@@ -295,7 +295,7 @@ campaignTrail_temp.answers_json = [
         "pk": 4154,
         "fields": {
             "question": 623,
-            "description": "I will speak to my supporters on bread and butter policy promises, I will keep it brief, and sharp."
+            "description": "I will speak to the Half-Breeds on bread and butter policy promises, such as civil service reform and doing away with the spoils system. This is what I was elected on, and this is what I will follow."
         }
     },
     {
@@ -303,7 +303,7 @@ campaignTrail_temp.answers_json = [
         "pk": 4155,
         "fields": {
             "question": 623,
-            "description": "We must unify the country, and present to the nation that we have moved beyond the division following the compromise only four years ago. Reconstruction and its specter still linger in our country. I shall give a unifying speech, to keep the country together."
+            "description": "We must unify the country, and present to the nation that we have moved beyond the division following the compromise only four years ago. Reconstruction and its specter still linger in our country, and we must move past it."
         }
     },
     {
@@ -311,7 +311,7 @@ campaignTrail_temp.answers_json = [
         "pk": 14474,
         "fields": {
             "question": 623,
-            "description": "Across the Country, Negroes are still oppressed even after all of the work we have done. The issue still lingers in my heart; I shall speak of civil rights, and our aims to expand them."
+            "description": "It is unconscionable that over 15 years after slavery was abolished, Negroes are still violently surpressed from voting. My number one priority will be to expand civil rights as President."
         }
     },
     {
@@ -319,7 +319,7 @@ campaignTrail_temp.answers_json = [
         "pk": 14476,
         "fields": {
             "question": 624,
-            "description": "I will not compromise my cabinet to the Stalwarts and their demands. The American people elected me on honest governance. My cabinet will be composed of men who stand for virtue, and reform."
+            "description": "I will not compromise my cabinet to the Stalwarts and their demands. The American people elected me on honest governance, and if Conkling and the Stalwarts don't like it, that's their problem."
         }
     },
     {
@@ -327,7 +327,7 @@ campaignTrail_temp.answers_json = [
         "pk": 14477,
         "fields": {
             "question": 624,
-            "description": "I shall form a cabinet that represents the full breadth of the party. I shall appoint men of integrity from each wing of our great party. Unity must guide our choices to govern justly. "
+            "description": "I shall form a cabinet that represents the full breadth of the party. I shall appoint men from each wing of our great party. Unity must guide our choices in order to govern justly. "
         }
     },
     {
@@ -335,7 +335,7 @@ campaignTrail_temp.answers_json = [
         "pk": 14478,
         "fields": {
             "question": 624,
-            "description": "As much as I hate it, I was elected on the backs of Stalwart hacks. Thus I intend to bring long standing members of the Republican party. The experienced statesman of the union must continue to guide its course."
+            "description": "As much as I hate it, I was elected on the backs of Stalwart hacks. We will be appointing Stalwarts in our administration. The experienced statesman of the union must continue to guide its course."
         }
     },
     {
@@ -439,7 +439,7 @@ campaignTrail_temp.answers_json = [
         "pk": 14500,
         "fields": {
             "question": 636,
-            "description": "Off the record, I am quite worried about the impact these tariffs will have on the consumers. I believe we should stay silent on this topic."
+            "description": "Off the record, I am quite worried about the impact these tariffs will have on the consumers, and I don't want to fall into the pocket of big business. I believe we should stay silent on this topic."
         }
     },
     {
@@ -455,7 +455,7 @@ campaignTrail_temp.answers_json = [
         "pk": 14502,
         "fields": {
             "question": 637,
-            "description": "This act is broadly popular among the electorate. Once voted on, I will sign this act into law, and enforce it."
+            "description": "This act is broadly popular among the electorate, and there's no reason to not sign it. Once voted on, I will sign this act into law and enforce it to my ability."
         }
     },
     {
@@ -487,7 +487,7 @@ campaignTrail_temp.answers_json = [
         "pk": 14506,
         "fields": {
             "question": 635,
-            "description": "I will not support this. This act would severely hurt and diminish the Republican party’s influence in congress, as well as politics as a whole."
+            "description": "I will not support this. This act would severely hurt and diminish the Republican party’s influence in Congress, as well as politics as a whole. If it comes to my desk, I will issue a veto."
         }
     },
     {
@@ -839,7 +839,7 @@ campaignTrail_temp.answers_json = [
         "pk": 14558,
         "fields": {
             "question": 14483,
-            "description": "Christ…. We shall remind the delegates why we were nominated this party four years ago. I shall appeal to the moderate wing that helped me gain the party's favor last time."
+            "description": "Christ. We shall remind the delegates why we were nominated this party four years ago. I shall appeal to the moderate wing that helped me gain the party's favor last time."
         }
     },
     {
@@ -847,7 +847,7 @@ campaignTrail_temp.answers_json = [
         "pk": 14559,
         "fields": {
             "question": 14483,
-            "description": "The party cannot afford more division. If the Stalwarts want influence, I shall offer Logan a high office in my next cabinet. Peace is worth the price.\n"
+            "description": "The party cannot afford more division. If the Stalwarts want influence, I shall offer Logan a high office in my next cabinet, with promises of further concessions if necessary. Peace is worth the price.\n"
         }
     },
     {
@@ -856,6 +856,22 @@ campaignTrail_temp.answers_json = [
         "fields": {
             "question": 14552,
             "description": "Of course I would, let us review the options."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 14561,
+        "fields": {
+            "question": 623,
+            "description": "American industry has been crippled by foreign labor. First and foremost, we will broadly raise tariffs on all foreign imports to stimulate our manufacturing."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 14563,
+        "fields": {
+            "question": 636,
+            "description": "The Democratic Party's support of low tariffs is yet another one of their crimes against the working man. I will raise tariffs as much as possible, and I don't mind if that means working with the Stalwarts."
         }
     }
 ]
@@ -4615,7 +4631,39 @@ campaignTrail_temp.jet_data = [{
         "runName": "Arthur",
         "runImage": "https://i.postimg.cc/wBDYjgjC/image.png"
     },
-    "banner_enabled": true
+    "banner_enabled": true,
+    "endings_enabled": false,
+    "ending_data": {},
+    "cyoa_enabled": false,
+    "cyoa_data": {},
+    "cyoa_variables": {},
+    "cyoa_variable_effects": {},
+    "cyoa_question_swaps": {},
+    "cyoa_answer_swaps": {}
 }
 ]
 
+e.cyoa = true;
+
+function getQuestionNumberFromPk(pk) {
+    return campaignTrail_temp.questions_json.map(q=>q.pk).indexOf(pk)-1;
+}
+
+	function tunnel(new_q){
+		return e.questions_json[e.questions_json.map(f=>f.pk).indexOf(new_q)];
+	} 
+
+cyoAdventure = function (a) {
+    ans = campaignTrail_temp.player_answers[campaignTrail_temp.player_answers.length-1];
+        e.noCounter += 1;
+
+if (ans == 14494) {
+campaignTrail_temp.questions_json[11] = tunnel(632);  // Alt Question -- Secretary Frelinghuysen
+}
+if (ans == 14495) {
+campaignTrail_temp.questions_json[11] = tunnel(631);  // Alt Question -- Secretary Evarts 
+}
+if (ans == 14496) {
+campaignTrail_temp.questions_json[11] = tunnel(633);  // Alt Question -- Secretary Hoar 
+}
+}
